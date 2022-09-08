@@ -2,8 +2,10 @@ import { ReactNode } from "react";
 import "./style.scss";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Link, Outlet} from "react-router-dom";
 import { ButtonCart } from "../buttonCart";
-import { Link } from "react-router-dom";
+
 
 interface HeaderProps {
   children: ReactNode;
@@ -54,6 +56,8 @@ export function Header({ children }: HeaderProps) {
         
         </div>
       </nav>
+      <Outlet />
+      
     </>
   );
 }

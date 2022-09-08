@@ -1,16 +1,14 @@
-
+import React from "react";
 import { ReactNode } from "react";
-import SobrePage from "../pages/sobre";
-
 
 interface Props {
     children: ReactNode;
   }
 
-export default function Sobre() {
+export default function CartPage({ children }: Props) {
     return (
       <>
-       <SobrePage children={undefined} />
+        <h2>cart</h2>
       </>
     );
   }

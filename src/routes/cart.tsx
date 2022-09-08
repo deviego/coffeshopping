@@ -1,13 +1,15 @@
 import { ReactNode } from "react";
+import CartPage from "../pages/Cart";
+
 
 interface Props {
     children: ReactNode;
   }
 
-export default function Expenses({ children }: Props) {
+export default function Cart() {
     return (
       <>
-        <h2>cart</h2>
+        <CartPage children={undefined} />
       </>
     );
   }
