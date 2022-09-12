@@ -1,10 +1,5 @@
-import { ReactNode } from "react";
 
-interface Props {
-    children: ReactNode;
-  }
-
-export default function SobrePage({ children }: Props) {
+export default function SobrePage() {
     return (
       <>
         <h2>sobre</h2>

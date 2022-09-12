@@ -1,0 +1,20 @@
+.InitalHome {
+    
+    margin:0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  h1 {
+    font-weight: 700;
+  }
+  .lightText {
+    color: #ff902b;
+  }
+  .illustrationImg {
+    height: 250px;
+    background-color: #2f2105;
+    padding: 10px;
+    border-radius: 400px;
+  }
+}

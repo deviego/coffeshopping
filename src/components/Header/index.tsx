@@ -16,9 +16,9 @@ export function Header({ children }: HeaderProps) {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container text-center">
-          <a className="navbar-brand" href="#">
+          <h2  >
              <span className="logoLight">Shopping</span>Coffee
-          </a>
+          </h2>
           <div className="navMenu">
           <button
             className="navbar-toggler"
@@ -45,7 +45,7 @@ export function Header({ children }: HeaderProps) {
               </li>
               
               <li className="nav-item">
-                <a className="nav-link ">sobre</a>
+                <Link to="/sobre" className="nav-link ">sobre</Link>
               </li>
             </ul>
           </div>
